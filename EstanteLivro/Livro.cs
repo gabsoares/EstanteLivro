@@ -52,7 +52,7 @@
         Console.Write("Titulo: " + this.titulo + "\n");
         for (int i = 0; i < this.autores.Length; i++)
         {
-            Console.WriteLine(this.autores[i]);
+            Console.WriteLine($"Autor {i + 1}: {this.autores[i]}");
         }
         Console.Write("Data Lancamento: " + this.dataLancamento + "\n");
         Console.Write("Editora: " + this.editora + "\n");
